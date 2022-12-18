@@ -1,0 +1,76 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(115, 9, 121, 1) 39%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input {
+    margin-right: 20px;
+    border: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 32px;
+    outline: none;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 76px;
+}
+
+.short-urls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.short-url {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: start;
+}
+
+.original-link {
+    color: #fff;
+}
+
+.copy {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: red
+}
