@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './mainPage.css'
 
 const baseUrl = 'https://api.shrtco.de/v2/shorten?url='
